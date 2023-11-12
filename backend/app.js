@@ -15,7 +15,7 @@ const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fet
 mongoose.connect("mongodb://127.0.0.1:27017/TP2", {
   useNewUrlParser: true,
 });
-
+//test
 app.use(cors());
 
 const schemaAccident = new mongoose.Schema({
